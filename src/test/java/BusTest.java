@@ -5,8 +5,8 @@ import static org.junit.Assert.assertEquals;
 
 public class BusTest {
 
-    Bus bus;
-    Person person;
+    private Bus bus;
+    private Person person;
 
     @Before
     public void before(){
