@@ -22,4 +22,8 @@ public class Bus {
             this.passengers.add(person);
         }
     }
+
+    public void removePassenger() {
+        this.passengers.remove(0);
+    }
 }
