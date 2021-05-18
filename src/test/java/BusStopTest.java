@@ -19,10 +19,10 @@ public class BusStopTest {
     }
 
 
-//    @Test
-//    public void canAddPersonToQueue(Person person){
-//        busStop.addPersonToQueue();
-//        assertEquals(1, busStop.countPassengersInQueue);
-//    }
+    @Test
+    public void canAddPersonToQueue(){
+        busStop.addPersonToQueue(person);
+        assertEquals(1, busStop.countPassengersInQueue());
+    }
 
 }
